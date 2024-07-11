@@ -16,3 +16,4 @@ result_2 = single_root_words('Disablement',
 
 print(result_1)
 print(result_2)
+# Не отправляется в githab.
