@@ -60,19 +60,13 @@ class House:
             return self
 
     def __iadd__(self, value):
-        if isinstance(value, int):
             return House(self.name, self.number_of_floors + value)
-        elif isinstance(value, House):
             return House(self.name, self.number_of_floors + value.number_of_floors)
-        else:
             return self
 
     def __radd__(self, value):
-        if isinstance(value, int):
             return House(self.name, self.number_of_floors + value)
-        elif isinstance(value, House):
             return House(self.name, self.number_of_floors + value.number_of_floors)
-        else:
             return self
 
     def __str__(self):
