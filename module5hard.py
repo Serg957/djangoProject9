@@ -43,7 +43,6 @@ class UrTube:
                 self.current_user = user
                 return user
 
-
     def register(self, nicname, password, age):
         new_user = User(nicname, password, age)
           # Проверка имени.
