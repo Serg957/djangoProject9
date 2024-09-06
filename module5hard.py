@@ -111,4 +111,3 @@ print(ur.current_user)
 ur.watch_video('Лучший язык программирования 2024 года!')
 
 
-
