@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f54133b-f1a1-452e-9596-37c902e3d8dd" name="Changes" comment=".Отправляю задание модуль 7.1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Stub" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Serg957/my_project-Urban.git",
+    "accountId": "65e6648a-bb1b-491e-99ba-18763d038de2"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/pip/_internal/cli/module_2_3.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main.ru.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/module3hard.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/module_2_5.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/module_3_1.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2hbICa4S9n8Aww1V9zprx6Eip6l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.'homework3.py'.executor": "Run",
+    "Python.Cycle.executor": "Run",
+    "Python._virtualenv.executor": "Run",
+    "Python.activate_this.executor": "Run",
+    "Python.fake_math.executor": "Run",
+    "Python.hard2home.executor": "Run",
+    "Python.homework4.executor": "Run",
+    "Python.homework5.executor": "Run",
+    "Python.homework6.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main.ru.executor": "Run",
+    "Python.modul2.2.executor": "Run",
+    "Python.module2_hard.executor": "Run",
+    "Python.module3hard.executor": "Run",
+    "Python.module5hard.executor": "Run",
+    "Python.module_10_0.executor": "Run",
+    "Python.module_2_3.executor": "Run",
+    "Python.module_2_4.executor": "Run",
+    "Python.module_2_5.executor": "Run",
+    "Python.module_3-3..executor": "Run",
+    "Python.module_3-5.executor": "Run",
+    "Python.module_3_1.executor": "Run",
+    "Python.module_3_2.executor": "Run",
+    "Python.module_3_4.executor": "Run",
+    "Python.module_4_1.executor": "Run",
+    "Python.module_4_2.executor": "Run",
+    "Python.module_5.executor": "Run",
+    "Python.module_5_0.executor": "Run",
+    "Python.module_5_1.executor": "Run",
+    "Python.module_5_2.executor": "Run",
+    "Python.module_5_3.executor": "Run",
+    "Python.module_5_4.executor": "Run",
+    "Python.module_6.executor": "Run",
+    "Python.module_6_0.executor": "Run",
+    "Python.module_6_1.executor": "Run",
+    "Python.module_6_3.executor": "Run",
+    "Python.module_6hard.executor": "Run",
+    "Python.module_7_0.executor": "Run",
+    "Python.module_7_0_1.executor": "Run",
+    "Python.module_7_1.executor": "Run",
+    "Python.module_7_2.executor": "Run",
+    "Python.module_7_3.executor": "Run",
+    "Python.module_7_4.executor": "Run",
+    "Python.module_7_5.executor": "Run",
+    "Python.module_8_0.executor": "Run",
+    "Python.module_8_1.executor": "Run",
+    "Python.module_8_2.executor": "Run",
+    "Python.shot.executor": "Run",
+    "Python.sortfunc.executor": "Run",
+    "Python.true_math.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/PycharmProjectsmy/lesson",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjectsmy\ lesson" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="hard2home" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name=" lesson" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hard2home.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name=" lesson" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module5hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name=" lesson" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module5hard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name=" lesson" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module_5_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name=" lesson" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_5_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module_6_3" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name=" lesson" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10 (lesson)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_6_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module_7_0_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lesson" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_7_0_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module_7_1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name=" lesson" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_7_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module_7_2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name=" lesson" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_7_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.module_7_0_1" />
+        <item itemvalue="Python.module5hard" />
+        <item itemvalue="Python.module_5_0" />
+        <item itemvalue="Python.module_5" />
+        <item itemvalue="Python.hard2home" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-ce3d9afa04ac-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.347" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f54133b-f1a1-452e-9596-37c902e3d8dd" name="Changes" comment="" />
+      <created>1717856224735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717856224735</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Отправляю задание модуль3.4">
+      <option name="closed" value="true" />
+      <created>1720696842993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720696842993</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Отправляю задание модуль3.4">
+      <option name="closed" value="true" />
+      <created>1720696902795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720696902795</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Отправляю задание модуль3.4">
+      <option name="closed" value="true" />
+      <created>1720716827821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720716827821</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Отправляю задание модуль3.3">
+      <option name="closed" value="true" />
+      <created>1720719785547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720719785547</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Отправляю задание модуль3.3">
+      <option name="closed" value="true" />
+      <created>1720719996066</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720719996066</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Отправляю задание модуль2.5">
+      <option name="closed" value="true" />
+      <created>1720720462377</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720720462378</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Отправляю задание модуль2.4">
+      <option name="closed" value="true" />
+      <created>1720777606206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720777606206</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Отправляю задание модуль2.2">
+      <option name="closed" value="true" />
+      <created>1720804569318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720804569318</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Отправляю задание модуль2.2">
+      <option name="closed" value="true" />
+      <created>1721057444963</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721057444963</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Отправляю задание модуль">
+      <option name="closed" value="true" />
+      <created>1721058241772</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721058241772</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Отправляю задание модуль 4.2">
+      <option name="closed" value="true" />
+      <created>1721214586427</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721214586427</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Отправляю задание модуль 4.2.1">
+      <option name="closed" value="true" />
+      <created>1721215811052</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721215811052</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Отправляю задание модуль 5.1">
+      <option name="closed" value="true" />
+      <created>1721387556337</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721387556337</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Отправляю задание модуль 5.1">
+      <option name="closed" value="true" />
+      <created>1721389738791</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1721389738791</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Отправляю задание модуль 5.2">
+      <option name="closed" value="true" />
+      <created>1721475174599</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721475174599</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Отправляю задание модуль 5.3">
+      <option name="closed" value="true" />
+      <created>1721836194996</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721836194996</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Отправляю задание модуль 5.3">
+      <option name="closed" value="true" />
+      <created>1721839461455</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721839461455</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Отправляю задание модуль 5.4">
+      <option name="closed" value="true" />
+      <created>1721993890986</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721993890986</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Отправляю задание модуль 6.3">
+      <option name="closed" value="true" />
+      <created>1726038433222</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726038433222</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Отправляю задание модуль 6.3">
+      <option name="closed" value="true" />
+      <created>1726038828061</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726038828061</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Отправляю задание модуль 6.3">
+      <option name="closed" value="true" />
+      <created>1726050875931</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726050875931</updated>
+    </task>
+    <task id="LOCAL-00022" summary=".Отправляю задание модуль 7.1">
+      <option name="closed" value="true" />
+      <created>1726050985437</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726050985437</updated>
+    </task>
+    <task id="LOCAL-00023" summary=".Отправляю задание модуль 7.1">
+      <option name="closed" value="true" />
+      <created>1726298676229</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1726298676229</updated>
+    </task>
+    <task id="LOCAL-00024" summary=".Отправляю задание модуль 7.1">
+      <option name="closed" value="true" />
+      <created>1726299042800</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1726299042800</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Отправляю задание модуль3.4" />
+    <MESSAGE value="Отправляю задание модуль3.3" />
+    <MESSAGE value="Отправляю задание модуль2.5" />
+    <MESSAGE value="Отправляю задание модуль2.4" />
+    <MESSAGE value="Отправляю задание модуль2.2" />
+    <MESSAGE value="Отправляю задание модуль" />
+    <MESSAGE value="Отправляю задание модуль 4.2" />
+    <MESSAGE value="Отправляю задание модуль 4.2.1" />
+    <MESSAGE value="Отправляю задание модуль 5.1" />
+    <MESSAGE value="Отправляю задание модуль 5.2" />
+    <MESSAGE value="Отправляю задание модуль 5.3" />
+    <MESSAGE value="Отправляю задание модуль 5.4" />
+    <MESSAGE value="Отправляю задание модуль 6.3" />
+    <MESSAGE value=".Отправляю задание модуль 7.1" />
+    <option name="LAST_COMMIT_MESSAGE" value=".Отправляю задание модуль 7.1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_5_0.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_7_1.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_7_1.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
