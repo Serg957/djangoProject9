@@ -1,8 +1,7 @@
 def is_prime(func):
     def wrapper(*args):
         n = func(*args)
-        if n < 2:
-            print("Число не является ни простым, ни составным")
+        if n <= 1:
             return n
         for i in range(2, int(n ** 0.5) + 1):
             if n % i == 0:
