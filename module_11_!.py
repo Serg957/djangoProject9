@@ -8,8 +8,8 @@ print(df)
 print()
 
 # Фильтрация данных по условию
-older_than_25 = df[df['age'] > 25]
-print(older_than_25)
+older_than_23 = df[df['age'] > 23]
+print(older_than_23)
 print()
 
 # Группировка данных по столбцу
