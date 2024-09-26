@@ -76,7 +76,6 @@ print("\n Код NumPy завершён \n")
 
 import matplotlib.pyplot as plt
 
-import numpy as np
 # Работа с библиотекой matplotlib:
 
 #Пример 1: Линейный график
