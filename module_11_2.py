@@ -5,12 +5,14 @@ def introspection_info(obj):
     obj_attributes = dir(obj)
 
     def methods():
-        return methods.__dir__()
+        callable(methods)
+        return (methods.__dir__())
 
     module = obj.__class__.__module__
 
 
     dictionary = {'type': obj_type, 'attributes': obj_attributes, 'methods': methods(), 'module': module}
+
     return dictionary
 
 
