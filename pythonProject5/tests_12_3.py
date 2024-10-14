@@ -7,30 +7,31 @@ class TournamentError(Exception):
 
 is_frozen= False
 
-
-class RunnerTest(unittest.TestCase): # это тест-кейс
+class RunnerTest(unittest.TestCase):
     @unittest.skipIf(is_frozen, 'Тесты в этом кейсе заморожены')
     def test_walk(self):
-        self.r1 = runner.Runner('Langsamer Karl')
+        walker = runner.Runner("walker")
         for i in range(10):
-            self.r1.walk()
-        self.assertEqual(self.r1.distance, 50)
-        #self.assertEqual(self.r1.distance, 60)
+            walker.walk()
+        self.assertEqual(walker.distance, 50)
 
     @unittest.skipIf(is_frozen, 'Тесты в этом кейсе заморожены')
     def test_run(self):
-        self.r2 = runner.Runner('Schneller Otto')
+        runner_1 = runner.Runner("runner_1")
         for i in range(10):
-            self.r2.run()
-        self.assertEqual(self.r2.distance, 100)
+            runner_1.run()
+        self.assertEqual(runner_1.distance, 100)
 
     @unittest.skipIf(is_frozen, 'Тесты в этом кейсе заморожены')
-    def test_callenge(self):
-        self.r3 = runner.Runner('Stille Moritz')
-        self.r4 = runner.Runner('Geschwindiger Siegfried')
+    def test_challenge(self):
+
+        runner_r =runner. Runner("runner_r")
+        runner_w = runner.Runner("runner_w")
         for i in range(10):
-            self.r3.walk(), self.r4.run()
-        self.assertNotEqual(self.r3.distance, self.r4.distance)
+            runner_r .run()
+            runner_w.walk()
+
+        self.assertNotEqual(runner_r.distance, runner_w.distance)
 
 
 class Tournament_test(unittest.TestCase):
