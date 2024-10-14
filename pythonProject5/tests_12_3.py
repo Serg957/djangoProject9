@@ -64,23 +64,14 @@ class Tournament_test(unittest.TestCase):
         Tournament_test.all_results['test_3'] = test_3
         self.assertTrue(test_3[max(test_3.keys())] == 'Ник')
 
-    @unittest.skipUnless(is_frozen, 'Тесты в этом кейсе заморожены')
-    def test_speed_1(self): # нерабочий тест из прошлого задания
-        for key, value in Tournament_test.all_results.items():
-            if value.get(3) is None:
-                if value.get(2) != 'Ник':
-                    raise TournamentError('Забег прошёл с нарушением. Кто-то сжульничал..')
-            elif value.get(3) != 'Ник' or value.get(2) != 'Андрей':
-                raise TournamentError('Забег прошёл с нарушением. Кто-то сжульничал.')
-            else:
-                print('Забег прошёл честно, никто не срезал трассу!')
-
-
-
     @classmethod
     def tearDownClass(cls):
-        for key, value in cls.all_results.items():
-            print(value)
+        for result in cls.all_results.values():
+            show_result = {}
+            for place, runner in result.items():
+                show_result[place] = runner.name
+            print(show_result)
+
 
 if __name__ == '__main__':
     unittest.main()
