@@ -11,7 +11,7 @@ import asyncio
 
 
 logging.basicConfig(level=logging.INFO)
-api = '7680771751:AAF2qSIzJ17lc4BPMQG4lZg0inOBwHg2QXg'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
