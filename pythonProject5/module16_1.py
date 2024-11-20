@@ -17,4 +17,3 @@ async def user_id(user_id : int) -> str:
 @app.get("/user")
 async def id_paginator(username: str, age:int) -> str:
     return f"Информация о пользователе. Имя:{ username}, Возраст: {age}"
-
