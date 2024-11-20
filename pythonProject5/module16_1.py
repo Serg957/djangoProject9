@@ -1,12 +1,10 @@
 from fastapi import FastAPI
 
-
 app = FastAPI()
 
 @app.get("/")
 async def homepage() -> str:
     return  "Главная страница"
-
 
 @app.get("/user/admin")
 async def news() ->dict:
