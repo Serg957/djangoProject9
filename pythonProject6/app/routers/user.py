@@ -77,7 +77,7 @@ async def delete_user(db: Annotated[Session, Depends(get_db)], user_id: int):
 
     if user is not None:
         db.execute(delete(User).where(User.id == user_id))
-        # db.execute(delete(Task).where(Task.user_id == user_id))
+        db.execute(delete(Task).where(Task.user_id == user_id))
         db.commit()
         return {
         'status_code': status.HTTP_200_OK,
@@ -88,3 +88,9 @@ async def delete_user(db: Annotated[Session, Depends(get_db)], user_id: int):
         status_code= status.HTTP_404_NOT_FOUND,
         detail= 'Пользователь не найден'
     )
+
+
+@router.get('/user_id/tasks')
+async def tasks_by_user_id(db: Annotated[Session, Depends(get_db)], user_id):
+    tasks = list(db.scalars(select(Task).where(Task.user_id == user_id)))
+    return tasks
