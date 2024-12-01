@@ -1,5 +1,6 @@
 from fastapi import  FastAPI
-from app.routers import task, user
+from app.routers import user, task
+
 
 app = FastAPI()
 
@@ -9,5 +10,3 @@ async  def welcome():
 
 app. include_router(user.router)
 app. include_router(task.router)
-
-

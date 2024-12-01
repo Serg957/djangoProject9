@@ -6,6 +6,7 @@ from app.backend.db_depends import get_db
 # Аннотации, Модели БД и Pydantic.
 from typing import Annotated
 from app.models.user import User
+from app.models.task import Task
 from app.schemas import CreateUser, UpdateUser
 # Функции работы с записями.
 from sqlalchemy import insert, select, update, delete
@@ -15,34 +16,33 @@ from slugify import slugify
 router = APIRouter(prefix="/user", tags=["user"])
 
 
-@router.get("/")
+
+@router.get('/')
 async def all_users(db: Annotated[Session, Depends(get_db)]):
     get_all_users = db.scalars(select(User)).all()
     return get_all_users
 
-@router.get("/user_id")
-async def user_by_id(db: Annotated[Session, Depends(get_db)], user_id: int):
-    get_user = db.scalars(select(User))
 
-    if User.id ==user_id and get_user is not None:
+@router.get('/user_id')
+async def user_by_id(db: Annotated[Session, Depends(get_db)], user_id: int):
+    get_user = db.scalars(select(User).where(User.id == user_id)).first()
+    if get_user is not None:
         return get_user
     raise HTTPException(
-        status_code=status.HTTP_404_NOT_FOUND,
-        detail='Пользователь не найден'
-    )
+        status_code= status.HTTP_404_NOT_FOUND,
+        detail= 'Пользователь не найден'
+        )
 
 
 
-
-@router.post("/create")
-async def create_user(db: Annotated[Session, Depends(get_db)], create_user = CreateUser):
+@router.post('/create')
+async def create_user(db: Annotated[Session, Depends(get_db)], create_user: CreateUser):
     db.execute(
-
-            insert(User).values(username=create_user.username,
-                                firstname=create_user.firstname,
-                                lastname=create_user.lastname,
-                                age=create_user.age,
-                                slug=slugify(create_user.username)))
+        insert(User).values(username = create_user.username,
+                                   firstname = create_user.firstname,
+                                   lastname = create_user.lastname,
+                                   age = create_user.age,
+                                   slug = slugify(create_user.username)))
     db.commit()
     return {
         'status_code': status.HTTP_201_CREATED,
@@ -51,45 +51,40 @@ async def create_user(db: Annotated[Session, Depends(get_db)], create_user = Cre
 
 
 
+@router.put('/update')
+async def update_user(db: Annotated[Session, Depends(get_db)], user_id: int, update_user: UpdateUser):
+    user = db.scalars(select(User).where(User.id == user_id)).first()
 
-@router.put(" /update")
-async  def update_user(db: Annotated[Session, Depends(get_db)], user_id: int,  update_user = UpdateUser ):
+    if user is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
+                            detail='Пользователь не найден')
 
-    user = db.scalars(select(User))
+    db.execute(update(User).where(User.id == user_id).values(
+                                   firstname=update_user.firstname,
+                                   lastname=update_user.lastname,
+                                   age=update_user.age))
+    db.commit()
 
-    if User.id == user_id and user is not None:
-        db.execute(update(User).where(User.id == user_id).values(
-            firstname=update_user.firstname,
-            lastname=update_user.lastname,
-            age=update_user.age))
-        db.commit()
-
-        return {
+    return {
         'status_code': status.HTTP_200_OK,
         'transaction': 'Пользователь успешно обновлён!'
     }
-    raise HTTPException(
-        status_code=status.HTTP_404_NOT_FOUND,
-        detail='Пользователь не найден')
 
 
+@router.delete('/delete')
+async def delete_user(db: Annotated[Session, Depends(get_db)], user_id: int):
+    user = db.scalars(select(User).where(User.id == user_id)).first()
 
-@router. delete("/delete")
-async  def delete_user(db: Annotated[Session, Depends(get_db)], user_id: int,  update_user = UpdateUser):
-    user = db.scalars(select(User))
-
-    if User.id == user_id and user is not None:
-        db.execute(delete(User))
-
+    if user is not None:
+        db.execute(delete(User).where(User.id == user_id))
+        # db.execute(delete(Task).where(Task.user_id == user_id))
         db.commit()
-
         return {
-            'status_code': status.HTTP_200_OK,
-            'transaction': 'Пользователь успешно удалён!'
+        'status_code': status.HTTP_200_OK,
+        'transaction': 'Пользователь успешно удалён!'
         }
+
     raise HTTPException(
-        status_code=status.HTTP_404_NOT_FOUND,
-        detail='Пользователь не найден')
-
-
-
+        status_code= status.HTTP_404_NOT_FOUND,
+        detail= 'Пользователь не найден'
+    )

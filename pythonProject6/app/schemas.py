@@ -24,4 +24,3 @@ class UpdateTask(BaseModel):
     priority: int
 
 
-
