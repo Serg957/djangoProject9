@@ -26,5 +26,3 @@ def downgrade() -> None:
     pass
 
 
-
-
